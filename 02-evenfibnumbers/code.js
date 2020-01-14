@@ -15,8 +15,6 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 var limit = 4000000
 
-// var limit = 100
-
 var evenSum = 0
 
 var term = 2
@@ -29,10 +27,6 @@ do {
 
     term = term + prevTerm
     prevTerm = term - prevTerm
-
-    // console.log(prevTerm)
-    // console.log(term)
-    // console.log('')
 
 } while (term < limit)
 
